@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #FAFAF9;
+    font-family: "montserrat", sans-serif;
+    
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+   
+    gap: 30px;
+    margin: 40px 10px;
+}
+
+.info-section{
+    width: 50%;
+}
+
+.info-section h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.info-section p{
+    margin-top: 10px;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 19px;
+    opacity: .6;
+}
+
+.ring p{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.testimonios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 55px;
+    border: 1px solid #FFFFFF;
+}
+.testimonios .text{
+    line-height: 2;
+}
+
+.testimonios .content-text{
+    margin-left: 40%;
+}
